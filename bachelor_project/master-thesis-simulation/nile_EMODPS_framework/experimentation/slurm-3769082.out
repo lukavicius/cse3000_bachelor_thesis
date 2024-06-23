@@ -1,0 +1,11 @@
+Autoloading python/3.8.12
+Autoloading py-setuptools/58.2.0
+Autoloading python/3.8.12
+Traceback (most recent call last):
+  File "baseline_optimization.py", line 69, in <module>
+    ArchiveLogger(
+  File "/home/tlukavicius/.local/lib/python3.8/site-packages/ema_workbench/em_framework/optimization.py", line 678, in __init__
+    os.mkdir(self.temp)
+FileExistsError: [Errno 17] File exists: '/home/tlukavicius/nile_EMODPS_framework/outputs/archive_logs/tmp'
+srun: error: cmp052: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=3769082.0
